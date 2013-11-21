@@ -8,11 +8,6 @@ var server = http.createServer(function(request, response){
 	response.end();
 });
 
-//server.listen(3000); //3000 - é a porta
-
-//localhost:3000
-
-
 server.listen(3000, function(){
 	console.log('Servidor está rodando!');
 });
